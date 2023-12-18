@@ -25,7 +25,27 @@ const myFunc = function() {
 
 }
 
-console.log(typeof id)
+// console.log(typeof id)
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// ======================================================>
+
+let myName = "sp"
+let anotherName = myName
+
+anotherName = "Pr"
+console.log(myName)
+console.log(anotherName)
+
+let userOne = {
+    email: "user@gamil.com",
+    pass: "1234"
+}
+
+let userTwo = userOne
+userTwo.email = "sp@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
